@@ -20,4 +20,4 @@ This file creates a function called readIn() which reads in raw data from csv fi
 
 File: plotter.py
 
-This file visualizes EDR data from GM Active Driver Assistance Systems by plotting a bar graph showing the percentage distribution of gap settings in cars that reach three different speed ranges. The axes being plotted can be altered to visualize different data. The current structure of the graph is three touching bars representing the three gap settings (Near, Medium, and Far) which is in turn being measured at three different speed ranges.
+This file visualizes EDR data from GM Advanced Driving Assistance Systems by plotting a bar graph showing the percentage distribution of gap settings in cars that reach three different speed ranges. The axes being plotted can be altered to visualize different data. The current structure of the graph is three touching bars representing the three gap settings (Near, Medium, and Far) which is in turn being measured at three different speed ranges.
