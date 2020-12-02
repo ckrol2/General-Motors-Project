@@ -4,7 +4,7 @@ File: LinkedList.py
 
 This file creates a linked list data structure in Python. The linked list was created to preserve memory when compared to Python lists and dictionaries, which function as dynamic arrays and hash tables, respectively. A linked list can reduce memory usage by up to 50% of that of a Python list and up to 70% of a Python dictionary. 
 
-The Node class contains attributes corresponding to EDR data for a given vehicle, which is identified by its VIN. These attributes can be changed depending on what it is you wish to store in the linked list. 
+The Node class contains attributes corresponding to Event Data Recording (EDR) for a given vehicle, which is identified by its VIN. These attributes can be changed depending on what it is you wish to store in the linked list. 
 
 The Linked List class contains two added funtions, the first of which is add_first(), which adds a new Node at the head of the Linked List. This allows for more efficient time complexity, giving the linked list a O(1) insert rather than O(n), saving valuable time as the linked list grows in size. This also allows for a built-in cache when iterating through the linked list, in that the most recently stored nodes will be at the front.
 
@@ -20,3 +20,4 @@ This file creates a function called readIn() which reads in raw data from csv fi
 
 File: plotter.py
 
+This file visualizes EDR data from GM Active Driver Assistance Systems by plotting a bar graph showing the percentage distribution of gap settings in cars that reach three different speed ranges. The axes being plotted can be altered to visualize different data. The current structure of the graph is three touching bars representing the three gap settings (Near, Medium, and Far) which is in turn being measured at three different speed ranges.
