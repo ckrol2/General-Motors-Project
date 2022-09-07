@@ -8,13 +8,13 @@ The Node class contains attributes corresponding to Event Data Recording (EDR) f
 
 The Linked List class contains two added funtions, the first of which is add_first(), which adds a new Node at the head of the Linked List. This allows for more efficient time complexity, giving the linked list a O(1) insert rather than O(n), saving valuable time as the linked list grows in size. This also allows for a built-in cache when iterating through the linked list, in that the most recently stored nodes will be at the front.
 
-The second function is remove_node(), which allows the user to query by VIN and remove the corresponding node from the linked list. This allows for easy data maintenance and is helpful when deleting data that is not useful from your linked list, saving both space in memory and time for future iterations through the linked list.
+The second function is remove_node(), which allows the user to query by VIN and remove the corresponding node from the linked list. This allows for easy data maintenance and is helpful when deleting data that is not useful from the linked list, saving both space in memory and time for future iterations through the linked list.
 
 ---------------------------------------------------------------
 
 File: dataRead.py
 
-This file creates a function called readIn() which reads in raw data from csv files and inserts it into our linked list data structure. The function can be altered to fit the user's needs by reading data from different files and querying by different columns.
+This file creates a function called readIn() which reads in raw data from csv files and inserts it into the linked list data structure. The function can be altered to fit the user's needs by reading data from different files and querying by different columns.
 
 ---------------------------------------------------------------
 
