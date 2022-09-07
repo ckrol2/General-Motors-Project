@@ -1,4 +1,4 @@
-# General Motors Preternship
+# General Motors Project
 
 File: LinkedList.py
 
