@@ -2,7 +2,7 @@
 
 To Run: 
 
-Download zip file (including csv files) and extract to a folder. Using Jupyter Notebook, run LinkedList.ipynb, then dataRead.ipynb, and finally plotter.ipynb. On runtime completion of the plotter the visualization will be available.
+Download zip file (including csv files) and extract to a folder. Using Jupyter Notebook, run LinkedList.ipynb, then dataRead.ipynb, and finally plotter.ipynb. On runtime completion of plotter the visualization will be available.
 
 ---------------------------------------------------------------
 
